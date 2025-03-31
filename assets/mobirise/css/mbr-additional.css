@@ -755,6 +755,29 @@ body {
 a {
   transition: color 0.6s;
 }
+@media (max-width: 1400px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1400px) and (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (max-width: 1400px) and (min-width: 768px) {
+  .container-fluid {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .container-fluid {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
 .cid-uGL7asr7mS {
   z-index: 1000;
   width: 100%;
@@ -877,7 +900,7 @@ a {
   height: 90px;
   padding: 0.5rem 0.6rem 0.5rem 1rem;
   flex-wrap: nowrap;
-  background: rgba(255, 255, 255, 0.8) !important;
+  background: rgba(255, 255, 255, 0) !important;
   left: 0;
   right: 0;
   -webkit-box-pack: justify;
@@ -918,7 +941,7 @@ a {
   transition: 0.3s all !important;
   min-width: auto;
   background: #ffffff;
-  background: rgba(255, 255, 255, 0.8) !important;
+  background: rgba(255, 255, 255, 0) !important;
 }
 .cid-uGL7asr7mS .nav-item:focus,
 .cid-uGL7asr7mS .nav-link:focus {
@@ -1118,7 +1141,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #3a341c;
+  background-color: #232323;
 }
 .cid-uGL7asr7mS button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1246,8 +1269,8 @@ a {
     border-radius: 1.5rem;
     background: #ffffff;
     opacity: 1;
-    border-color: rgba(255, 255, 255, 0.8) !important;
-    background: rgba(255, 255, 255, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0) !important;
+    background: rgba(255, 255, 255, 0) !important;
     backdrop-filter: blur(8px);
   }
   .cid-uGL7asr7mS .navbar-nav .nav-item .nav-link::after {
@@ -1332,7 +1355,7 @@ a {
     align-items: flex-end;
   }
   .cid-uGL78LK5CJ .row {
-    justify-content: flex-end;
+    justify-content: center;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
